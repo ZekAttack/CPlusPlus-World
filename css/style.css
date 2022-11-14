@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #464646;
+    color: white;
+}
+
+header {
+    background-color: #000927;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header .wrapper {
+    padding: 20px 50px;
+}
+
+header img {
+    max-width: 20%;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.primary-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 50px;
+    justify-content: right;
+    margin-top: 25px;
+}
+
+/* This code was taken from https://www.w3schools.com/css/css_dropdowns.asp*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #464646;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* End of taken content */
+
+.dropdown-content ul{
+    display: contents;
+}
+
+a {
+    color: #d871d5;
+    text-decoration: none;
+}
+
+header span {
+    color: #d871d5;
+}
