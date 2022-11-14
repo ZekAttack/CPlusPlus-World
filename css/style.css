@@ -79,3 +79,11 @@ a {
 header span {
     color: #d871d5;
 }
+
+.primary-nav .active {
+    border: 1px solid white;
+}
+
+span .active {
+    border: 1px solid white; 
+}
