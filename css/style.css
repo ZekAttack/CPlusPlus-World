@@ -18,6 +18,10 @@ img {
     max-width: 100%;
 }
 
+.wrapper {
+    padding: 80px 50px;
+}
+
 .container {
     max-width: 1440px;
     margin: auto;
@@ -86,4 +90,17 @@ header span {
 
 span .active {
     border: 1px solid white; 
+}
+
+.history-text {
+    text-align: center;
+}
+
+.history-text p {
+    text-align: left;
+}
+
+.history-text ul {
+    list-style-position: inside;
+    text-align: left;
 }
