@@ -45,6 +45,7 @@ header img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .primary-nav ul{
@@ -158,4 +159,10 @@ span .active {
 
 .button:hover {
     background-color: #2E56DC;
+}
+
+@media screen and (max-width: 570px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
