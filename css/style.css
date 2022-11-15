@@ -19,6 +19,10 @@ header {
     background-color: #000927;
 }
 
+footer {
+    background-color: black;
+}
+
 img {
     max-width: 100%;
 }
@@ -116,7 +120,7 @@ span .active {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    gap: 10% 0%;
+    gap: 100px 0;
 }
 
 .projects-grid img {
