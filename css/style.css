@@ -85,11 +85,11 @@ header span {
 }
 
 .primary-nav .active {
-    border: 5px solid white;
+    border: 1px solid white;
 }
 
 span .active {
-    border: 5px solid white; 
+    border: 1px solid white; 
 }
 
 .history-text {
