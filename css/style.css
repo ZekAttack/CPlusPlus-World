@@ -37,6 +37,7 @@ header .wrapper {
 }
 
 header img {
+    min-width: 150px;
     max-width: 20%;
 }
 
@@ -125,17 +126,23 @@ span .active {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    min-height: 100vh;
 }
 
 .information {
     background-image: url("../img/loremipsum.PNG");
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .code {
     background-image: url("../img/code.PNG");
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
